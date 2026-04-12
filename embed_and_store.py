@@ -1,4 +1,4 @@
-#embed_and_store.py
+# embed_and_store.py
 
 """
 将校园手册文本分块、生成 embeddings 并存入 Chroma 向量数据库。

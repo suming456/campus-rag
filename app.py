@@ -1,5 +1,5 @@
 # app.py
-#       streamlit run "RAG校园问答系统\app.py"
+#        streamlit run "RAG校园问答系统\app.py"
 import os
 import shutil   
 import tempfile

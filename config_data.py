@@ -1,4 +1,4 @@
-# config_data.py
+#  config_data.py
 import os
 
 BASE_DIR = os.path.dirname(__file__)

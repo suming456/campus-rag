@@ -1,4 +1,4 @@
-#loader.py  - 使用PyPDFLoader 加载校园手册 PDF 并输出文本
+# loader.py  - 使用PyPDFLoader 加载校园手册 PDF 并输出文本
 
 from langchain_community.document_loaders import PyPDFLoader
 import config_data as config

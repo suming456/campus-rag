@@ -1,4 +1,4 @@
-#rag_chain.py
+# rag_chain.py
 
 """
 RAG-LangChain问答链:
