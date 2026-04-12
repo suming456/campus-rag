@@ -1,4 +1,5 @@
 #  config_data.py
+import streamlit as st
 import os
 
 BASE_DIR = os.path.dirname(__file__)
@@ -20,7 +21,7 @@ TEMP_CHROMA_DIR = os.path.join(BASE_DIR, "temp_chroma")
 
 # ========== Qwen API 配置 ==========
 # 使用 Qwen API（需申请 API Key）
-QWEN_API_KEY = os.getenv("QWEN_API_KEY")
+QWEN_API_KEY = st.secrets.get("QWEN_API_KEY") or os.getenv("QWEN_API_KEY")
 QWEN_CHAT_MODEL = os.getenv("QWEN_CHAT_MODEL", "qwen3-max")
 QWEN_EMBEDDING_MODEL = "text-embedding-v4"
 
