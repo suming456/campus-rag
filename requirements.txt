@@ -1,0 +1,7 @@
+# requirements.txt
+streamlit
+langchain
+langchain-community
+chromadb
+dashscope
+pypdf
