@@ -1,0 +1,108 @@
+# ==================== 通用忽略规则 ====================
+# 操作系统相关
+.DS_Store                # macOS
+Thumbs.db                # Windows
+desktop.ini              # Windows
+*.swp                    # Vim 交换文件
+*.swo                    # Vim 交换文件
+*~                       # 临时文件
+.idea/                   # IntelliJ IDEA
+.vscode/                 # VS Code
+*.suo                    # Visual Studio
+*.user                   # Visual Studio
+*.userosscache           # Visual Studio
+*.sln.docstates          # Visual Studio
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 缓存/临时文件
+.cache/
+.tmp/
+temp/
+coverage/                # 测试覆盖率报告
+*.lcov
+
+# 包管理/依赖
+node_modules/            # Node.js
+vendor/                  # PHP Composer
+target/                  # Java Maven/Gradle
+build/                   # 通用构建目录
+dist/                    # 通用打包目录
+out/                     # 通用输出目录
+*.jar                    # Java
+*.war                    # Java
+*.class                  # Java
+venv/                    # Python 虚拟环境
+env/                     # Python 虚拟环境
+__pycache__/             # Python 字节码
+*.py[cod]                # Python 字节码
+.venv/                   # Python 虚拟环境
+
+# ==================== 前端专项 (可选) ====================
+# 构建产物
+dist/
+build/
+*.min.js
+*.min.css
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# npm/yarn/pnpm 锁文件（如需统一版本可取消注释）
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ==================== 后端专项 (可选) ====================
+# Java
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+
+# Go
+bin/
+pkg/
+*.exe
+*.exe~
+.DS_Store
+vendor/
+
+# Python
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==================== 移动端专项 (可选) ====================
+# Android
+.gradle/
+local.properties
+*.iml
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.cxx/
+build/
+app/build/
+
+# iOS
+Pods/
+*.xcworkspace/
+!default.xcworkspace
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+DerivedData/
